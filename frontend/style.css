@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: whitesmoke;
+}
+
+.section__title{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    border-bottom: 2px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+}
+
+.section__content{
+    padding: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: #f1f1f1;
+    width: 500px;
+}
+
+#file{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+#conversor{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(165, 165, 165);
+    border: 1px solid black;
+}
+
+#conversor:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.errorMsg{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.successMsg{
+    color: green;
+    font-size: 1.5rem;
+}
